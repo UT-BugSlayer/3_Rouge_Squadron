@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3755959915151170652}
   - component: {fileID: 5012486509059803331}
   - component: {fileID: 6960737273075496040}
-  - component: {fileID: 1949199713}
+  - component: {fileID: 410052896759853807}
+  - component: {fileID: 929760732}
   m_Layer: 0
   m_Name: Spaceship
   m_TagString: Untagged
@@ -115,7 +116,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1949199713
+--- !u!114 &410052896759853807
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3768917233408264530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbc67f43156e88c4d8ab4591b5ccc83c, type: 3}
+  m_Script: {fileID: 11500000, guid: cfc697a1c61cb3c4f83c77fdeecb1889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
@@ -134,6 +135,18 @@ MonoBehaviour:
   controlPitchFactor: -20
   positionYawFactor: 7
   controlRollFactor: -30
+--- !u!114 &929760732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3768917233408264530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bfe001d31edd91489826c5ffe79e2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &989875384236959868
 PrefabInstance:
   m_ObjectHideFlags: 0

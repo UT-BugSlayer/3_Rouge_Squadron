@@ -17,7 +17,7 @@ namespace UnityStandardAssets.Utility
         private float[] distances;
 
         public float editorVisualisationSubsteps = 100;
-        public float Length { get; private set; }
+        public float length { get; private set; }
 
         public Transform[] Waypoints
         {
@@ -61,12 +61,12 @@ namespace UnityStandardAssets.Utility
         {
             int point = 0;
 
-            if (Length == 0)
+            if (length <= Mathf.Epsilon)
             {
-                Length = distances[distances.Length - 1];
+                length = distances[distances.Length - 1];
             }
 
-            dist = Mathf.Repeat(dist, Length);
+            dist = Mathf.Repeat(dist, length);
 
             while (distances[point] < dist)
             {
@@ -170,13 +170,13 @@ namespace UnityStandardAssets.Utility
                 numPoints = Waypoints.Length;
 
                 CachePositionsAndDistances();
-                Length = distances[distances.Length - 1];
+                length = distances[distances.Length - 1];
 
                 Gizmos.color = selected ? Color.yellow : new Color(1, 1, 0, 0.5f);
                 Vector3 prev = Waypoints[0].position;
                 if (smoothRoute)
                 {
-                    for (float dist = 0; dist < Length; dist += Length/editorVisualisationSubsteps)
+                    for (float dist = 0; dist < length; dist += length/editorVisualisationSubsteps)
                     {
                         Vector3 next = GetRoutePosition(dist + 1);
                         Gizmos.DrawLine(prev, next);
