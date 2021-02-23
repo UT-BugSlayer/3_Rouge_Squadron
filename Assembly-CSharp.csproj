@@ -47,6 +47,7 @@
      <Compile Include="Assets\Asset Packs\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Utility\EventSystemChecker.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Asset Packs\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
@@ -129,6 +130,7 @@
      <Compile Include="Assets\Asset Packs\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
@@ -141,8 +143,7 @@
      <Compile Include="Assets\Asset Packs\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
      <None Include="Assets\Asset Packs\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Asset Packs\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
@@ -727,6 +728,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:/GitHub/3_Rouge_Squadron/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools">
+        <HintPath>C:/GitHub/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+        <HintPath>C:/GitHub/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
