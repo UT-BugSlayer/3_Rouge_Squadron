@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerController : MonoBehaviour {
     // TODO: work out why sometimes slow on first play of scene
@@ -25,21 +24,22 @@ public class PlayerController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (isControlEnabled){
+        if (isControlEnabled) {
             ProcessTranslation();
             ProcessRotation();
+            ProcessFiring();
         }
     }
 
     private void ProcessTranslation() {
         // Process Horizonal Translation
-        xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
+        xThrow = Input.GetAxis("Horizontal");
         float xOffset = xThrow * controlSpeed * Time.deltaTime;
         float rawXPos = transform.localPosition.x + xOffset;
         float clampedXPos = Mathf.Clamp(rawXPos, -xRange, xRange);
 
         // Process Vertical Translation
-        yThrow = CrossPlatformInputManager.GetAxis("Vertical");
+        yThrow = Input.GetAxis("Vertical");
         float yOffset = yThrow * controlSpeed * Time.deltaTime;
         float rawYPos = transform.localPosition.y + yOffset;
         float clampedYPos = Mathf.Clamp(rawYPos, -yRange, yRange);
@@ -62,6 +62,15 @@ public class PlayerController : MonoBehaviour {
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
+    private void ProcessFiring() {
+        if (Input.GetButton("Fire1")) {
+            Debug.Log("Shooting");
+        }
+        else {
+            Debug.Log("Not Shooting");
+        }
+    }
+    
     private void OnPlayerDeath() { // Called by String reference
         isControlEnabled = false;
     }
