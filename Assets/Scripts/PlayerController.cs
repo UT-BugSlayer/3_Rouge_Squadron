@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
     [Tooltip("In ms^-1")][SerializeField] float controlSpeed = 4f; // 4 meters/sec
     [Tooltip("In m")][SerializeField] float xRange = 6f; // 6 meters
     [Tooltip("In m")][SerializeField] float yRange = 3f; // 3 meters
+    [SerializeField] GameObject[] lasers;
 
     [Header("Screen-Position Based")]
     [SerializeField] float positionPitchFactor = -5f;
@@ -64,13 +65,24 @@ public class PlayerController : MonoBehaviour {
 
     private void ProcessFiring() {
         if (Input.GetButton("Fire1")) {
-            Debug.Log("Shooting");
+            ActivateLasers();
         }
         else {
-            Debug.Log("Not Shooting");
+            DeactivateLasers();
         }
     }
-    
+    void ActivateLasers() {
+        // for each of the lasers that we have, turn them on
+        foreach (GameObject laser in lasers) {
+            laser.SetActive(true);
+        }
+    }
+    void DeactivateLasers() {
+        foreach (GameObject laser in lasers) {
+            laser.SetActive(false);
+        }
+    }
+
     private void OnPlayerDeath() { // Called by String reference
         isControlEnabled = false;
     }

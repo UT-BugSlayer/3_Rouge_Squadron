@@ -232,6 +232,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 2.067971, y: 20.91459, z: 359.04}
+--- !u!1 &243372360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 989875383233412615, guid: 251d1b03d8460b944bea684b3bd1c26f,
+    type: 3}
+  m_PrefabInstance: {fileID: 989875383038766937}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &455515850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -451,6 +457,12 @@ Light:
   m_CorrespondingSourceObject: {fileID: 1668696923886904763, guid: 3630c67b263c42e42a069913a0e93404,
     type: 3}
   m_PrefabInstance: {fileID: 1668696924256851745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &958389127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2309518370202497442, guid: 251d1b03d8460b944bea684b3bd1c26f,
+    type: 3}
+  m_PrefabInstance: {fileID: 989875383038766937}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
@@ -1195,6 +1207,36 @@ PrefabInstance:
       propertyPath: deathFX
       value: 
       objectReference: {fileID: 1740023204}
+    - target: {fileID: 410052896759853807, guid: 251d1b03d8460b944bea684b3bd1c26f,
+        type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 410052896759853807, guid: 251d1b03d8460b944bea684b3bd1c26f,
+        type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 958389127}
+    - target: {fileID: 410052896759853807, guid: 251d1b03d8460b944bea684b3bd1c26f,
+        type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 243372360}
+    - target: {fileID: 989875383233412615, guid: 251d1b03d8460b944bea684b3bd1c26f,
+        type: 3}
+      propertyPath: m_Name
+      value: Laser Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309518370202497442, guid: 251d1b03d8460b944bea684b3bd1c26f,
+        type: 3}
+      propertyPath: m_Name
+      value: Laser Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309518370202497442, guid: 251d1b03d8460b944bea684b3bd1c26f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3765108509645801508, guid: 251d1b03d8460b944bea684b3bd1c26f,
         type: 3}
       propertyPath: m_LocalPosition.x
