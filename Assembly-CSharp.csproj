@@ -61,37 +61,37 @@
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TerrainTools">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TerrainTools.Editor">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/larodriguez3/Desktop/Unity/Lessons/3_Rouge_Squadron/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>F:/3_Rouge_Squadron/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/2020.1.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
