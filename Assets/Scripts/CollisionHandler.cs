@@ -6,19 +6,22 @@ using UnityEngine.SceneManagement; //ok as long as this is the only script that 
 
 public class CollisionHandler : MonoBehaviour {
     [Tooltip("In seconds")][SerializeField] float levelLoadDelay = 1f;
-    [Tooltip("FX prefab on Player")][SerializeField] GameObject deathFX;
+    [Tooltip("FX prefab on Player")][SerializeField] ParticleSystem deathFX;
 
     void OnTriggerEnter(Collider other) {
         StartDeathSequence();
-        deathFX.SetActive(true);
-        Invoke("ReloadLevel", levelLoadDelay);
     }
 
     private void StartDeathSequence() {
-        SendMessage("OnPlayerDeath");
+        deathFX.Play();
+        GetComponent<BoxCollider>().enabled = false;
+        GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<PlayerController>().enabled = false;
+        Invoke("ReloadLevel", levelLoadDelay);
     }
 
     private void ReloadLevel() { // string referenced
-        SceneManager.LoadScene(1);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }

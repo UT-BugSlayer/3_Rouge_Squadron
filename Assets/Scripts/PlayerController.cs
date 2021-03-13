@@ -21,15 +21,12 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] float controlRollFactor = -20f;
 
     float xThrow, yThrow;
-    bool isControlEnabled = true;
 
     // Update is called once per frame
     void Update() {
-        if (isControlEnabled) {
-            ProcessTranslation();
-            ProcessRotation();
-            ProcessFiring();
-        }
+        ProcessTranslation();
+        ProcessRotation();
+        ProcessFiring();
     }
 
     private void ProcessTranslation() {
@@ -71,6 +68,7 @@ public class PlayerController : MonoBehaviour {
             SetLasersActive(false);
         }
     }
+    
     void SetLasersActive(bool isActive) {
         // for each of the lasers that we have, turn them on
         foreach (GameObject laser in lasers) {
@@ -79,7 +77,4 @@ public class PlayerController : MonoBehaviour {
         }
     }
   
-    private void OnPlayerDeath() { // Called by String reference
-        isControlEnabled = false;
-    }
 }
