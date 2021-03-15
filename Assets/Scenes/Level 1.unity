@@ -280,8 +280,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3161495463971382674, guid: 0d6c09c7971284e468ab271a8c81ddea,
     type: 3}
+  hitVFX: {fileID: 3161495463971382674, guid: 71dcb51367fcf73459acf5f328e515ee, type: 3}
   parent: {fileID: 1760649}
   scorePerHit: 10
+  health: 3
 --- !u!95 &369548361
 Animator:
   serializedVersion: 3
@@ -475,8 +477,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3161495463971382674, guid: 0d6c09c7971284e468ab271a8c81ddea,
     type: 3}
+  hitVFX: {fileID: 3161495463971382674, guid: 71dcb51367fcf73459acf5f328e515ee, type: 3}
   parent: {fileID: 1760649}
   scorePerHit: 10
+  health: 3
 --- !u!95 &459664673
 Animator:
   serializedVersion: 3
@@ -931,8 +935,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3161495463971382674, guid: 0d6c09c7971284e468ab271a8c81ddea,
     type: 3}
+  hitVFX: {fileID: 3161495463971382674, guid: 71dcb51367fcf73459acf5f328e515ee, type: 3}
   parent: {fileID: 1760649}
   scorePerHit: 10
+  health: 3
 --- !u!95 &1246495571
 Animator:
   serializedVersion: 3
@@ -1130,8 +1136,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3161495463971382674, guid: 0d6c09c7971284e468ab271a8c81ddea,
     type: 3}
+  hitVFX: {fileID: 3161495463971382674, guid: 71dcb51367fcf73459acf5f328e515ee, type: 3}
   parent: {fileID: 1760649}
   scorePerHit: 10
+  health: 3
 --- !u!95 &1572724778
 Animator:
   serializedVersion: 3
@@ -1420,8 +1428,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 3161495463971382674, guid: 0d6c09c7971284e468ab271a8c81ddea,
     type: 3}
+  hitVFX: {fileID: 3161495463971382674, guid: 71dcb51367fcf73459acf5f328e515ee, type: 3}
   parent: {fileID: 1760649}
   scorePerHit: 10
+  health: 3
 --- !u!1001 &1837882566
 PrefabInstance:
   m_ObjectHideFlags: 0
