@@ -32,11 +32,11 @@ public class Enemy : MonoBehaviour {
     private void processHit() {
         GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parentGameObject.transform;
-        scoreBoard.IncreaseScore(scorePerHit);
         health--;
     }
 
     private void killEnemy() {
+        scoreBoard.IncreaseScore(scorePerHit);
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parentGameObject.transform;
         Destroy(gameObject);
