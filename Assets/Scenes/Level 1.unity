@@ -453,13 +453,18 @@ PlayableDirector:
     value: {fileID: 0}
   m_ExposedReferences:
     m_References:
+    - 00a0736340caaab4cba918cb56bbbaee: {fileID: 731858085}
     - ab79c0c4f646e08478ef226c2cf1290f: {fileID: 475148397}
     - fe513def83f274f48bbf804fbbac725c: {fileID: 0}
     - 1af40a4130c730b4b974bf7a596d96b7: {fileID: 0}
     - f2e6c27680ae40e489fc5d8bd9dfbdae: {fileID: 2047216162}
     - 5487c075d55dd6443af7993fa9778ae3: {fileID: 0}
+    - a6d4c6f6a63fefe4ca3ebcd625ef822e: {fileID: 731858085}
+    - 67159b8574d394345a7136dcf0fe6c9b: {fileID: 731858085}
     - 595f29970075df14da3921712ae12224: {fileID: 634954042}
     - a2d16f1730b5f6f468ac50865e873534: {fileID: 2108354965}
+    - 1c75828e4be43954e82569c0e41668e0: {fileID: 731858085}
+    - 01ee9e280e8234d46bef07866a8a9ea4: {fileID: 731858085}
     - e5553ebe4a6e19243bd689aa01fc5521: {fileID: 731858085}
     - 55b29321e1823c844bc4947b0eb9efd1: {fileID: 1477676405}
     - a87657ac7df6bf141aba353d5725a979: {fileID: 1967069253}
@@ -1347,6 +1352,32 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 886125189470510385, guid: 9c2cb4cd8ab46904792c864cb09b36ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -117.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 886125189470510385, guid: 9c2cb4cd8ab46904792c864cb09b36ca,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 235.31155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669917629344999741, guid: 9c2cb4cd8ab46904792c864cb09b36ca,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f0825f409f0d1b044b616fe8e5b6a001,
+        type: 3}
+    - target: {fileID: 2376929969973764520, guid: 9c2cb4cd8ab46904792c864cb09b36ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -242
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376929969973764520, guid: 9c2cb4cd8ab46904792c864cb09b36ca,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -98
+      objectReference: {fileID: 0}
     - target: {fileID: 5018771870199095438, guid: 9c2cb4cd8ab46904792c864cb09b36ca,
         type: 3}
       propertyPath: m_Name
@@ -1456,6 +1487,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8281158394626021121, guid: 9c2cb4cd8ab46904792c864cb09b36ca,
+        type: 3}
+      propertyPath: m_Name
+      value: Admiral
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c2cb4cd8ab46904792c864cb09b36ca, type: 3}
